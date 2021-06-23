@@ -24,3 +24,11 @@ function draw() {
 
   requestAnimationFrame(draw);
 }
+
+
+async function scanQR(){
+    alert("scanned");
+    let imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    let code = jsQR(imageData.data, canvas.width, canvas.height);
+    alert(code);
+}
