@@ -4,11 +4,17 @@ body {
 }
 
 #videobox {
-  position: absolute;
   top: 10px;
   left: 10px;
   transform-origin: left top;
   transform: scale(.1);
+}
+
+#canvasbox {
+  top: 10px;
+  left: 10px;
+  transform-origin: left top;
+  transform: scale(1);
 }
 
 #video {
