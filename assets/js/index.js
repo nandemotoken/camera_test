@@ -30,6 +30,6 @@ let qrcode;
 async function scanQR(){
     alert("scanned");
     let imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    let qrcode = jsQR(imageData.data, canvas.width, canvas.height);
+    qrcode = jsQR(imageData.data, canvas.width, canvas.height);
     alert(qrcode);
 }
