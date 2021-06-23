@@ -7,14 +7,14 @@ body {
   top: 10px;
   left: 10px;
   transform-origin: left top;
-  transform: scale(.1);
+  transform: scale(.3);
 }
 
 #canvasbox {
   top: 10px;
   left: 10px;
   transform-origin: left top;
-  transform: scale(1);
+  transform: scale(.3);
 }
 
 #video {
