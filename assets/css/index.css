@@ -7,7 +7,7 @@ body {
   top: 10px;
   left: 10px;
   transform-origin: left top;
-  transform: scale(.3);
+  transform: scale(.1);
 }
 
 #canvasbox {
